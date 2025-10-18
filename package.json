@@ -1,0 +1,14 @@
+{
+  "name": "VoidTickets",
+  "version": "1.0.0",
+  "description": "Discord Ticket and Vouch Bot",
+  "main": "VoidTickets.js",
+  "scripts": {
+    "start": "node VoidTickets.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "chalk": "^5.3.0",
+    "figlet": "^1.7.0"
+  }
+}
