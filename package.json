@@ -1,14 +1,20 @@
 {
-  "name": "VoidTickets",
-  "version": "1.0.0",
-  "description": "Discord Ticket and Vouch Bot",
-  "main": "VoidTickets.js",
+  "name": "voidtickets-advanced",
+  "version": "1.3.0",
+  "description": "VoidTickets Advanced - ticket & vouch bot",
+  "main": "index.js",
   "scripts": {
-    "start": "node VoidTickets.js"
+    "start": "node index.js",
+    "setup": "node setup-guild.js"
+  },
+  "engines": {
+    "node": ">=16.9.0"
   },
   "dependencies": {
-    "discord.js": "^14.15.3",
-    "chalk": "^5.3.0",
-    "figlet": "^1.7.0"
+    "discord.js": "^14.11.0",
+    "@discordjs/rest": "^1.6.0",
+    "dotenv": "^16.0.0",
+    "chalk": "^5.0.0",
+    "fs-extra": "^11.1.1"
   }
 }
